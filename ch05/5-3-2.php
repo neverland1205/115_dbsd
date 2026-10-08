@@ -1,3 +1,7 @@
+#NAME: 林宥任<BR>
+#SID: C113181108<BR>
+EX03<HR>
+<BR>
 <?php
 $result = 0;
 $n = 0;

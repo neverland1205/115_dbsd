@@ -1,4 +1,7 @@
 <?php
+require("about_me.php");
+    echo "W10-EX02" . "<br/>";
+
 session_start(); // 啟用交談期
 
 if (isset($_POST["Item"])) {

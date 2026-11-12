@@ -7,6 +7,9 @@
 </head>
 <body>
 <?php
+    require("about_me.php");
+    echo "W08-EX01" . "<br/>";
+
     session_start();  // 啟用交談期
     echo "啟用交談期<br/>";
 
@@ -29,6 +32,7 @@
         if (!isset($_SESSION["page_counter"])) {
             echo "Session變數page_counter不存在!<br/>";
             session_destroy();  // 關閉交談期
+            echo "關閉交談期<br/>";
         }
     }
 ?>
